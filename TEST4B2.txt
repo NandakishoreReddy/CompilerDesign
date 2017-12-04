@@ -1,0 +1,18 @@
+DCL A
+DCL B
+DCL C
+
+GOTO F
+LET C = 3
+
+F:  GOTO D
+GOTO D
+GOTO F
+GOTO F
+GOTO E
+GOTO D
+LET B = 5
+E:
+
+GOTO D
+D: END

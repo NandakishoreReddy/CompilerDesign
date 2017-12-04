@@ -1,0 +1,67 @@
+Name : Nanda Kishore Reddy Thineti
+MID  : M20227955
+
+Enter file name
+TEST4B8.txt
+DCL A
+DCL B
+DCL C
+
+GOTO F
+LET C = 3
+
+
+F:  GOTO D
+
+GOTO D
+
+GOTO F
+
+GOTO F
+
+GOTO E
+
+GOTO D
+
+LET B = 5
+
+E:
+
+
+GOTO D
+
+END
+
+
+
+
+5 8 0 0
+
+4 1 -2 0
+
+5 0 0 0
+
+5 -9 0 0
+
+5 8 0 0
+
+5 8 0 0
+
+5 36 0 0
+
+5 -13 0 0
+
+4 2 -3 0
+
+5 -29 0 0
+
+10 0 0 0
+
+5 3 1 0
+
+
+BEGIN EXECUTION
+
+Press any key to continue . . .
+
+

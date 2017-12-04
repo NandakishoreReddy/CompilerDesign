@@ -1,0 +1,9 @@
+Name : Nanda Kishore Reddy Thineti
+MID  : M20227955
+
+Enter file name
+TEST4B9.txt
+WRITE 2
+
+
+Missing end statement

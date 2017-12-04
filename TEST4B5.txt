@@ -1,0 +1,33 @@
+DCL A
+DCL B
+DCL I
+  LET I = 0
+  LET A = 1
+  READ B
+
+G:  IF I = B THEN GOTO F
+    GOTO C
+    WRITE 7
+
+C:  IF A <= B THEN GOTO D
+    WRITE 7
+
+D:  IF A > B THEN GOTO E
+    WRITE A
+    WRITE B
+    FOR I = A TO B DO
+      WRITE I
+    NEXT
+
+    GOTO E
+    WRITE 7
+
+E:  FOR I = A STEP 2 TO B DO
+      WRITE I
+    NEXT
+
+    LET I = 5
+    GOTO G
+
+F:  WRITE 42
+    END
